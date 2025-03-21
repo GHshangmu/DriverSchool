@@ -199,3 +199,47 @@ footer p {
 .swiper-button-prev {
     color: #4CAF50;
 }
+/* 移动端适配 */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em; /* 减小标题字体大小 */
+    }
+
+    header p {
+        font-size: 1em; /* 减小副标题字体大小 */
+    }
+
+    nav a {
+        padding: 10px 15px; /* 减小导航按钮的内边距 */
+        font-size: 1em;
+    }
+
+    .section {
+        padding: 20px; /* 减小内容区域的内边距 */
+    }
+
+    .section h2 {
+        font-size: 1.8em; /* 减小标题字体大小 */
+    }
+
+    .section p {
+        font-size: 1em; /* 减小正文字体大小 */
+    }
+
+    .advantages-grid {
+        grid-template-columns: 1fr; /* 将优势卡片改为单列布局 */
+    }
+
+    .swiper-container {
+        height: 300px; /* 减小轮播容器的高度 */
+    }
+
+    .cta-button {
+        width: 100%; /* 让按钮占满宽度 */
+        text-align: center;
+    }
+
+    footer p {
+        font-size: 0.9em; /* 减小页脚字体大小 */
+    }
+}
